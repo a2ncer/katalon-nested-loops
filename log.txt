@@ -1,0 +1,469 @@
+[info] Playing test case Test / Nested Loops
+[info] Time: Wed Mar 07 2018 10:21:56 GMT+0200 (EET) Timestamp: 1520410916837
+[info] OS: Linux Version:
+[info] Browser: Chrome Version: 63.0
+[info] Executing: | storeEval | 10 | pages |
+[info] Executing: | storeEval | 1 | pageIndex |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[info] Executing: | while | ${pageIndex}<${pages} | |
+[info] Executing: | storeEval | ${pageIndex} + 1 | pageIndex |
+[info] Executing: | store | page_${pageIndex} | url |
+[info] Executing: | store | 10 | rows |
+[info] Executing: | store | 0 | rowIndex |
+[info] Executing: | while | ${rowIndex}<${rows} | |
+[info] Executing: | storeEval | ${rowIndex} + 1 | rowIndex |
+[info] Executing: | store | click_${rowIndex} | click |
+[info] Executing: | endWhile | | |
+[info] Executing: | endWhile | | |
+[error] TypeError: Cannot read property 'condition' of undefined
+[info] Time: Wed Mar 07 2018 10:22:21 GMT+0200 (EET) Timestamp: 1520410941531
+[info] Test case failed
