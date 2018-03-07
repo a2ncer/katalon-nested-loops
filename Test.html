@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Nested Loops</td></tr>
+</thead>
+<tbody>
+<tr><td>storeEval</td><td>10<datalist><option>10</option><option>2</option></datalist></td><td>pages</td>
+</tr>
+<tr><td>storeEval</td><td>1<datalist><option>1</option></datalist></td><td>pageIndex</td>
+</tr>
+<tr><td>while</td><td>${pageIndex}&lt;${pages}<datalist><option>${pageIndex}&lt;${pages}</option><option>pageIndex&lt;pages</option></datalist></td><td></td>
+</tr>
+<tr><td>storeEval</td><td>${pageIndex} + 1<datalist><option>${pageIndex} + 1</option></datalist></td><td>pageIndex</td>
+</tr>
+<tr><td>store</td><td>page_${pageIndex}<datalist><option>page_${pageIndex}</option></datalist></td><td>url</td>
+</tr>
+<tr><td>store</td><td>10<datalist><option>10</option></datalist></td><td>rows</td>
+</tr>
+<tr><td>store</td><td>0<datalist><option>0</option></datalist></td><td>rowIndex</td>
+</tr>
+<tr><td>while</td><td>${rowIndex}&lt;${rows}<datalist><option>${rowIndex}&lt;${rows}</option><option>rowIndex&lt;rows</option></datalist></td><td></td>
+</tr>
+<tr><td>storeEval</td><td>${rowIndex} + 1<datalist><option>${rowIndex} + 1</option></datalist></td><td>rowIndex</td>
+</tr>
+<tr><td>store</td><td>click_${rowIndex}<datalist><option>click_${rowIndex}</option></datalist></td><td>click</td>
+</tr>
+<tr><td>endWhile</td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td>endWhile</td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
